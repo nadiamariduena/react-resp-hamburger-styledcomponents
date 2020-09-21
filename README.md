@@ -1,6 +1,6 @@
 ## RESPONSIVE NAVBAR
 
-#### Continuing my research of the Simple navbar
+#### Continuing my research for the Simple navbar
 
 <p>I am not too convinced of this kind of navbar because i love gsap animated ones, but 
 i think it s good to discover as many possibilities as possible.</p>
