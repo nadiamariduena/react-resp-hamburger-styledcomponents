@@ -8,6 +8,11 @@ i think it s good to discover as many possibilities as possible.</p>
 <br>
 <br>
 
+[<img src="./src/img/preview.gif">](https://nadiamariduena.github.io/animated-portfolio-with-intersection-observer/)
+
+<br>
+<br>
+
 ### PREVIEW
 
 <p> You will need to set up a useState to animate the lines </p>

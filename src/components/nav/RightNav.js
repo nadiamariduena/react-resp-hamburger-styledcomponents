@@ -35,7 +35,7 @@ const Ul = styled.ul`
     flex-flow: column nowrap;
     background-color: #ff00aae5;
     position: fixed;
-/*
+    /*
 
 if you want to position the window openning to the right side change the following:
 "translateX(-100%)")};
@@ -65,6 +65,9 @@ left: 0;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 1.8rem;
       font-weight: 500;
+      &:hover {
+        color: #ff0;
+      }
     }
   }
 `;

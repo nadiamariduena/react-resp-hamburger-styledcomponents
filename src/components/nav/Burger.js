@@ -8,12 +8,19 @@ const StyledBurger = styled.div`
   position: fixed;
   top: 15px;
   left: 20px;
-  display: flex;
-  justify-content: space-around;
-  flex-flow: column nowrap;
+
   //after setting open the opening of the nav, you have to set up the closing
   //
   z-index: 20;
+  display: none;
+  //
+  //
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+  }
+
   //
   //
   div {
