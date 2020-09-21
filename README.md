@@ -22,7 +22,7 @@ import React, { useEffect, useState } from "react";
 ```javascript
 const Burger = () => {
   const [open, setOpen] = useState(false);
-  //   if open is false transform it to true
+
   //  if open is true , transform it to false:  onClick={() => setOpen(!open)}>
 
   return (
