@@ -18,7 +18,7 @@ i think it s good to discover as many possibilities as possible.</p>
 <p> You will need to set up a useState to animate the lines </p>
 
 ```javascript
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 ```
 
 <br>
@@ -88,8 +88,8 @@ const Burger = () => {
         import React, { useState } from "react";
 
 
-       /* 
-       
+       /*
+
        Using the  { useState } will allow us to create
         the animation by setting up the state and the setState
         , the state is the default state of the element we want to
@@ -133,7 +133,7 @@ const Burger = () => {
 
 /*
  <StyledBurger open={open} onClick={() => setOpen(!open)}>
-  
+
      what this does: get the false or default value of the open
         and transform it to  TRUE, and if open is true or opened
         transform it to FALSE/close
@@ -141,7 +141,7 @@ const Burger = () => {
    4_ ) ONCE THIS IS DONE, add the {open} to the 3 lines :
 */
 
-     
+
 
     //this is related to the origin of rotation of the lines
     //
