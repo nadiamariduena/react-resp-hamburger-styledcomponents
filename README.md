@@ -73,17 +73,17 @@ const Burger = () => {
 
 ```javascript
 
-                          -----------
-                                            ANIM
-                                            -----------
+                                            // ---------
+                                            // ANIMATION
+                                            // ---------
 
-                        correspond to the animation steps
+                        // correspond to the animation steps ONLY
 
         1) REPLACE THE :
 
             import React from "react";
 
-        by
+        for:
 
         import React, { useState } from "react";
 
@@ -178,10 +178,10 @@ const Burger = () => {
     background-color: ${({ open }) => (open ? "#ccc" : "#222")};
 
 
-    ---------
+    // ---------
     transform-origin: 1px;  //this will make the X shape crossing possible
 
-    ------------
+    // ------------
     //
     // without the linear transition, the line in the middle will not move
     transition: all 0.3s linear;
