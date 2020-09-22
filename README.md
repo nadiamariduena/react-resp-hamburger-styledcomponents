@@ -79,49 +79,48 @@ const Burger = () => {
 
                         // correspond to the animation steps ONLY
 
-        1) REPLACE THE :
+        //      1) REPLACE THE :
 
             import React from "react";
 
-        for:
+       //   for:
 
         import React, { useState } from "react";
 
 
-        Using the  { useState } will allow us to create
+       /* 
+       
+       Using the  { useState } will allow us to create
         the animation by setting up the state and the setState
         , the state is the default state of the element we want to
         handle in this case the burger lines, and the setState is the
         changed state of this element "changed when clicked" as it will
         change the default initial state.
 
+        */
 
 
 
-        2_) declare it, here you chose how it will be called,
-            since we have to open it to see the content i will call it "open":
+
+      //  2_) declare it, here you chose how it will be called,
+       //     since we have to open it to see the content i will call it "open":
 
 
               const [open, setOpen] = useState(false);
-
+  /*
         - If you notice the initial/default is : open
         - and the change state of the default will be: setOpen
         - useState is the hook state(which is : FALSE)
+*/
 
 
 
-
-        3)_ Add the hook "usestate" to the element you want to change
-        "the lines parent box" :
+     //   3)_ Add the hook "usestate" to the element you want to change
+     //   "the lines parent box" :
 
 
 
     <StyledBurger open={open} onClick={() => setOpen(!open)}>
-
-
-        what this does: get the false or default value of the open
-        and transform it to  TRUE, and if open is true or opened
-        transform it to FALSE/close
 
 
 
@@ -132,12 +131,17 @@ const Burger = () => {
 
     </StyledBurger>
 
+/*
+ <StyledBurger open={open} onClick={() => setOpen(!open)}>
+  
+     what this does: get the false or default value of the open
+        and transform it to  TRUE, and if open is true or opened
+        transform it to FALSE/close
 
+   4_ ) ONCE THIS IS DONE, add the {open} to the 3 lines :
+*/
 
-        4_ ) ONCE THIS IS DONE, add the {open} to the 3 lines :
-
-
-
+     
 
     //this is related to the origin of rotation of the lines
     //
@@ -168,9 +172,8 @@ const Burger = () => {
 
 
 
-    ******
-
-   ITS NOT GOING TO WORK YET as you have to add the following:
+    // --------------------------------------------------------
+  //  ITS NOT GOING TO WORK YET as you have to add the following:
 
 
 
