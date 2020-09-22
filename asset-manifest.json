@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-resp-hamburger-styledcomponents/static/css/main.d3b866e7.chunk.css",
+    "main.js": "/react-resp-hamburger-styledcomponents/static/js/main.485415ca.chunk.js",
+    "main.js.map": "/react-resp-hamburger-styledcomponents/static/js/main.485415ca.chunk.js.map",
+    "runtime-main.js": "/react-resp-hamburger-styledcomponents/static/js/runtime-main.fbfb7908.js",
+    "runtime-main.js.map": "/react-resp-hamburger-styledcomponents/static/js/runtime-main.fbfb7908.js.map",
+    "static/js/2.6539260a.chunk.js": "/react-resp-hamburger-styledcomponents/static/js/2.6539260a.chunk.js",
+    "static/js/2.6539260a.chunk.js.map": "/react-resp-hamburger-styledcomponents/static/js/2.6539260a.chunk.js.map",
+    "index.html": "/react-resp-hamburger-styledcomponents/index.html",
+    "precache-manifest.fea8ecfeac8d7c8644c9f049e8c6d807.js": "/react-resp-hamburger-styledcomponents/precache-manifest.fea8ecfeac8d7c8644c9f049e8c6d807.js",
+    "service-worker.js": "/react-resp-hamburger-styledcomponents/service-worker.js",
+    "static/css/main.d3b866e7.chunk.css.map": "/react-resp-hamburger-styledcomponents/static/css/main.d3b866e7.chunk.css.map",
+    "static/js/2.6539260a.chunk.js.LICENSE.txt": "/react-resp-hamburger-styledcomponents/static/js/2.6539260a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbfb7908.js",
+    "static/js/2.6539260a.chunk.js",
+    "static/css/main.d3b866e7.chunk.css",
+    "static/js/main.485415ca.chunk.js"
+  ]
+}
